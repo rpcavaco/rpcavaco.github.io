@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://rpcavaco.github.io/sitemap.xml
