@@ -52,6 +52,10 @@ function init_events() {
 
 	window.addEventListener("resize", defineWidths);
 
+	if (/Mobi|Android/i.test(navigator.userAgent)) {
+		alert("mobile!");
+	}
+
 }
 
 
