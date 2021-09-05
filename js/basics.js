@@ -62,7 +62,7 @@ function calcDims() {
 	} 
 
 	if (mobile_portrait) {
-		artheight = 0.9 * dims[1];
+		artheight = 0.85 * dims[1];
 	} else {
 		artheight = ART_HEIGHT;
 	}
