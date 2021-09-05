@@ -16,9 +16,6 @@
 
 html {
 	background-color: #1b1b1b;
-	background: linear-gradient(to bottom, #fffcfb, #d1c4c2);
-	background-size: 100%;
-	background-repeat: no-repeat;
 	font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	/* height: 100%;
@@ -37,11 +34,12 @@ html.inverted {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	min-height: 100%;
 }
 html.inverted .bckgrdelem {
 	background: linear-gradient(to bottom, #305f5f, #101010);	
 	background-attachment: fixed;
-
+	min-height: 100%;
 }
 
 body {
