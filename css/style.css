@@ -48,12 +48,15 @@ body.page {
 html.inverted .namelabel {
 	fill: white;
 }
+html.inverted .namelabel_huge {
+	fill: white;
+}
 
 .pageheader {
 	height: 3rem;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
-	border-bottom: 1px solid #8b8b8b;
+	border-bottom: 0.12rem solid #8b8b8b;
 }
 .pageheader a {
 	font-family: Jura-SemiBold;
@@ -69,7 +72,7 @@ footer {
 	margin-top: 1rem;
 }
 html.inverted footer {
-	border-top: 1px solid #7a7a7a;
+	border-top: 0.12rem solid #7a7a7a;
 }
 footer span {
 	float: right;
@@ -82,7 +85,7 @@ footer span {
 	display: flex;
 	float: left;
 	height: 38px;	
-	width: 200px;
+	width: 12.5rem;
 }
 .footerleft span {
 	align-self: flex-end;
@@ -108,12 +111,12 @@ footer span {
 	display: flex;
 	float: right;
 	height: 38px;	
-	width: 170px;	
+	width: 10.625rem;
 }
 .footerright span {
 	align-self: flex-end;
 }
-@media (max-width: 620px) {
+@media (max-width: 750px) {
 	.footerright {
 		display: none;	
 	}	
@@ -137,7 +140,7 @@ header a.acerca {
 	margin-left: 10px;
 	float: right;
 }
-@media (max-width: 660px) {
+@media (max-width: 750px) {
 	header a.acerca {
 		font-size: 1rem;	
 	}	
@@ -203,14 +206,14 @@ button {
     background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg viewBox=%220 0 6 16%22 xmlns=%22http://www.w3.org/2000/svg%22%3E %3Cpath fill=%22none%22 stroke=%22%238b8b8b%22 stroke-width=%221.2%22 d=%22M1,6L1,16%22 /%3E%3C/svg%3E');	
 }
 
-@media (min-width: 660px) {
+@media (min-width: 750px) {
 	#leftcol {
 		float: left;
 	}
 }
 
 /* Esconder coluna da direita com largura total abaixo de ... */
-@media (max-width: 660px) {
+@media (max-width: 750px) {
 	#rightcol {
 		display: none;
 	}
@@ -252,6 +255,11 @@ button {
 
 .namelabel {
 	font-size: 3em;
+	font-family: Jura-SemiBold;	
+}
+
+.namelabel_huge {
+	font-size: 6em;
 	font-family: Jura-SemiBold;	
 }
 
