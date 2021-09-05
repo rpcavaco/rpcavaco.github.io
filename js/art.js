@@ -150,9 +150,6 @@ class DropAnimatorClass {
 			}
 		}
 	}
-	setHeight(p_val) {
-		this.attribs[2] = p_val;
-	}
 
 };
 
